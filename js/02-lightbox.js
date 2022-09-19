@@ -18,8 +18,6 @@ function galleryMarkupMaker(galleryItems) {
 }
 galleryRef.insertAdjacentHTML("afterbegin", galleryList);
 
-galleryRef.addEventListener("click", imgGalleryClicker);
-
 function linkActionDenier(e) {
   e.preventDefault();
 }
